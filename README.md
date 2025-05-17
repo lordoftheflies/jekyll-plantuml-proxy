@@ -1,6 +1,6 @@
-# jekyll-remote-plantuml
+# jekyll-plantuml-proxy
 
-[![security](https://hakiri.io/github/Patouche/jekyll-remote-plantuml/master.svg)](https://hakiri.io/github/Patouche/jekyll-remote-plantuml/master) [![Build Status](https://travis-ci.org/Patouche/jekyll-remote-plantuml.svg)](https://travis-ci.org/Patouche/jekyll-remote-plantuml)
+[![security](https://hakiri.io/github/Patouche/jekyll-plantuml-proxy/master.svg)](https://hakiri.io/github/Patouche/jekyll-plantuml-proxy/master) [![Build Status](https://travis-ci.org/Patouche/jekyll-plantuml-proxy.svg)](https://travis-ci.org/Patouche/jekyll-plantuml-proxy)
 
 
 A plugin for jekyll to use plantuml diagram inside your [Jekyll](http://jekyllrb.com/) for you website. This will use external resource to build plantuml diagram. Once created, the diagram is store on the filesystem to prevent any unnecessary diagram generation. So, using this plugin, provide a simple way to integrate plantuml diagramm without the [Graphiz](http://www.graphviz.org/) software or the using the [plantuml](http://sourceforge.net/projects/plantuml/files/plantuml.jar/download) jar file.
@@ -11,7 +11,7 @@ To install this plugin on Jekyll, you just have to follow the guideline of Jekyl
 
 ## Usage
 
-To use the jekyll-remote-plantuml plugin, you just have to wrap you text between `{% uml %}` and `{% enduml %}` tags.
+To use the jekyll-plantuml-proxy plugin, you just have to wrap you text between `{% uml %}` and `{% enduml %}` tags.
 
 For example, to create a basic shema between Bob and Alice, you can write the following code :
 

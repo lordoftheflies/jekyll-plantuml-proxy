@@ -35,7 +35,7 @@ class PlantUmlConfig
     # will be use
     DEFAULT = {
         :assets       => '_images/plantuml/',
-        :type         => 'png',
+        :type         => 'svg',
         :encode       => 'encode64',
         :url          => 'http://www.plantuml.com/plantuml/{type}/{code}'
     }
